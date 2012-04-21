@@ -8,6 +8,22 @@
     <artifactId>energylogger-parser</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>EnergyLogger 3500/4000 Data Parser</name>
+    <inceptionYear>2012</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Philip Schiffer</name>
+            <email>admin@psdev.de</email>
+        </developer>
+    </developers>
 
     <properties>
         <java-version>1.6</java-version>
@@ -19,6 +35,7 @@
         <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
         <maven-source-plugin-version>2.1.2</maven-source-plugin-version>
         <maven-javadoc-plugin-version>2.8.1</maven-javadoc-plugin-version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -129,4 +146,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
