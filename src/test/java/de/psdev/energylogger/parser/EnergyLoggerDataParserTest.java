@@ -28,6 +28,7 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 import java.util.zip.ZipFile;
 
 import static junit.framework.Assert.assertEquals;
@@ -69,7 +70,7 @@ public class EnergyLoggerDataParserTest {
         assertEquals(226.1D, logEntry.getVoltage());
         assertEquals(0.508D, logEntry.getCurrent());
         assertEquals(0.76D, logEntry.getPowerfactor());
-        assertEquals(1237253940000L, logEntry.getTimestamp().getTime());
+        assertEquals(1237257540000L, logEntry.getTimestamp().getTime());
     }
 
     @Test(expected = RuntimeException.class)
@@ -94,6 +95,7 @@ public class EnergyLoggerDataParserTest {
         byte[] dateByte = {0x08, 0x02, 0x07, 0x10, 0x1A};
         Date parseDate = energyLoggerDataParser.parseDate(dateByte);
         Calendar calendar = Calendar.getInstance();
+        calendar.setTimeZone(TimeZone.getTimeZone("UTC"));
         calendar.set(Calendar.YEAR, 2007);
         calendar.set(Calendar.MONTH, Calendar.AUGUST);
         calendar.set(Calendar.DAY_OF_MONTH, 2);

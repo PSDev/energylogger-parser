@@ -134,6 +134,7 @@ public class EnergyLoggerDataParserImpl implements EnergyLoggerDataParser {
         byte hour = dateBytes[3];
         byte minute = dateBytes[4];
         final Calendar calendar = GregorianCalendar.getInstance();
+        calendar.setTimeZone(TimeZone.getTimeZone("UTC"));
         calendar.set(Calendar.DAY_OF_MONTH, day);
         calendar.set(Calendar.MONTH, month - 1);
         calendar.set(Calendar.YEAR, 2000 + year);
