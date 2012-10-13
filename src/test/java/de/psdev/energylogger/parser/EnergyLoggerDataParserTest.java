@@ -91,6 +91,16 @@ public class EnergyLoggerDataParserTest {
     }
 
     @Test
+    public void testValueOfFileType() throws Exception {
+        EnergyLoggerDataParserImpl.FileType unknown = EnergyLoggerDataParserImpl.FileType.valueOf("UNKNOWN");
+        EnergyLoggerDataParserImpl.FileType data = EnergyLoggerDataParserImpl.FileType.valueOf("DATA");
+        EnergyLoggerDataParserImpl.FileType info = EnergyLoggerDataParserImpl.FileType.valueOf("INFO");
+        assertEquals(EnergyLoggerDataParserImpl.FileType.UNKNOWN, unknown);
+        assertEquals(EnergyLoggerDataParserImpl.FileType.DATA, data);
+        assertEquals(EnergyLoggerDataParserImpl.FileType.INFO, info);
+    }
+
+    @Test
     public void testParseDate() {
         byte[] dateByte = {0x08, 0x02, 0x07, 0x10, 0x1A};
         Date parseDate = energyLoggerDataParser.parseDate(dateByte);
