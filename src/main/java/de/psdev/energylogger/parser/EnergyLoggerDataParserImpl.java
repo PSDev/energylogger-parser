@@ -56,7 +56,7 @@ public class EnergyLoggerDataParserImpl implements EnergyLoggerDataParser {
             logEntries.addAll(handleZipEntry(zipFile, zipEntry));
         }
         final long runtime = System.currentTimeMillis() - startTime;
-        LOG.info("Parsed %d logentries in %dms", logEntries.size(), runtime);
+        LOG.info("Parsed {} logentries in {}", logEntries.size(), runtime);
         return logEntries;
     }
 
