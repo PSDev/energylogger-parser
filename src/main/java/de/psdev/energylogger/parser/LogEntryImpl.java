@@ -1,5 +1,5 @@
 /*
- * Copyright 2012 Philip Schiffer <admin@psdev.de>
+ * Copyright 2012-2013 Philip Schiffer <admin@psdev.de>
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ class LogEntryImpl implements LogEntry {
 	}
 
 	@Override
-    public void setTimestamp(Date timestamp) {
+    public void setTimestamp(final Date timestamp) {
 		this.timestamp = (Date) timestamp.clone();
 	}
 
@@ -40,7 +40,7 @@ class LogEntryImpl implements LogEntry {
 	}
 
 	@Override
-    public void setVoltage(double voltage) {
+    public void setVoltage(final double voltage) {
 		this.voltage = voltage;
 	}
 
@@ -50,7 +50,7 @@ class LogEntryImpl implements LogEntry {
 	}
 
 	@Override
-    public void setCurrent(double current) {
+    public void setCurrent(final double current) {
 		this.current = current;
 	}
 
@@ -60,7 +60,7 @@ class LogEntryImpl implements LogEntry {
 	}
 
 	@Override
-    public void setPowerfactor(double powerfactor) {
+    public void setPowerfactor(final double powerfactor) {
 		this.powerfactor = powerfactor;
 	}
 }
