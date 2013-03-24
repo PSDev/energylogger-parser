@@ -37,6 +37,7 @@
         <url>https://github.com/PSDev/energylogger-parser</url>
         <connection>scm:git:git://github.com/PSDev/energylogger-parser.git</connection>
         <developerConnection>scm:git:git@github.com:PSDev/energylogger-parser.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
