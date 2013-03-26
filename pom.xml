@@ -15,7 +15,7 @@
     <description>Library for parsing (already patched) data files exported from Voltcraft EnergyLogger 3500/4000.</description>
     <url>http://psdev.github.com/energylogger-parser/</url>
     <inceptionYear>2012</inceptionYear>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <licenses>
         <license>
@@ -36,7 +36,7 @@
         <url>https://github.com/PSDev/energylogger-parser</url>
         <connection>scm:git:git://github.com/PSDev/energylogger-parser.git</connection>
         <developerConnection>scm:git:git@github.com:PSDev/energylogger-parser.git</developerConnection>
-        <tag>energylogger-parser-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
