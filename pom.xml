@@ -13,9 +13,16 @@
 
     <name>EnergyLogger 3500/4000 Data Parser</name>
     <description>Library for parsing (already patched) data files exported from Voltcraft EnergyLogger 3500/4000.</description>
-    <url>http://psdev.github.com/energylogger-parser/</url>
+    <url>http://psdev.de/energylogger-parser/</url>
     <inceptionYear>2012</inceptionYear>
     <version>1.0.1-SNAPSHOT</version>
+
+    <developers>
+        <developer>
+            <name>Philip Schiffer</name>
+            <email>philip.schiffer@gmail.com</email>
+        </developer>
+    </developers>
 
     <licenses>
         <license>
@@ -24,13 +31,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <developers>
-        <developer>
-            <name>Philip Schiffer</name>
-            <email>admin@psdev.de</email>
-        </developer>
-    </developers>
 
     <scm>
         <url>https://github.com/PSDev/energylogger-parser</url>
