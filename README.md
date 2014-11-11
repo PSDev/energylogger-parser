@@ -1,4 +1,4 @@
-EnergyLogger Parser [![Build Status](https://secure.travis-ci.org/PSDev/energylogger-parser.png?branch=master)](https://travis-ci.org/PSDev/energylogger-parser) [![Build Status](http://ci.psdev.de/job/PSDevEnergyLoggerParser/badge/icon)](http://ci.psdev.de/job/PSDevEnergyLoggerParser/)
+EnergyLogger Parser [![Build Status](http://ci.psdev.de/job/PSDevEnergyLoggerParser/badge/icon)](http://ci.psdev.de/job/PSDevEnergyLoggerParser/)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.psdev/energylogger-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.psdev/energylogger-parser)
 ===================
 
 Library for parsing (already patched) data files exported from Voltcraft EnergyLogger 3500/4000
