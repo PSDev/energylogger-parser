@@ -1,4 +1,4 @@
-EnergyLogger Parser [![Build Status](https://ci.psdev.de/job/PSDevEnergyLoggerParser/badge/icon)](https://ci.psdev.de/job/PSDevEnergyLoggerParser/)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.psdev/energylogger-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.psdev/energylogger-parser)
+EnergyLogger Parser [![Build Status](https://ci.psdev.de/job/PSDevEnergyLoggerParser/badge/icon)](https://ci.psdev.de/job/PSDevEnergyLoggerParser/)  [![Maven Central](https://img.shields.io/maven-central/v/de.psdev/energylogger-parser.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:de.psdev%20AND%20a:energylogger-parser)
 ===================
 
 Library for parsing (already patched) data files exported from Voltcraft EnergyLogger 3500/4000
@@ -14,14 +14,14 @@ Download [the latest JAR][1] or grab via Maven:
 <dependency>
   <groupId>de.psdev</groupId>
   <artifactId>energylogger-parser</artifactId>
-  <version>1.0.1</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
 License
 -------
 
-    Copyright 2012-2016 Philip Schiffer
+    Copyright 2012-2018 Philip Schiffer
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
